@@ -1,0 +1,128 @@
+body
+{
+    background-color:plum;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#Head,#Headcon
+{
+    width:100%;
+    height:80px;
+}
+img
+{
+    width:10%;
+    height:80px;
+}
+nav
+{
+   display:inline-block;
+   margin:0px 65px;
+}
+a
+{
+ color:#FF0000;
+ text-decoration: none;
+ font-family: TimesNewRoman;
+ font-size: 30px;
+}
+nav input
+{
+ color:#FF0000;
+ text-decoration: none;
+ font-family: TimesNewRoman;
+ font-size: 30px;
+ background: transparent;
+ border:none;
+}
+#Gap
+{
+    width:100%;
+    height:30px;
+}
+#Schedule,#Schedulecon
+{
+    width: 100%;
+    height:300px;
+}
+#Schedulecon h3
+{
+    color:magenta;
+    font-family: TimesNewRoman;
+    font-size: 40px;
+    text-align: center;
+}
+#Schedulecon nav
+{
+   display:inline-block;
+   margin:0px 200px;
+}
+#Schedulecon a
+{
+ color:chartreuse;
+ text-decoration: none;
+ font-family: TimesNewRoman;
+ font-size: 30px; 
+ text-align: center;
+}
+#Class
+{
+    width: 50%;
+    height:300px;
+    border:1px solid aqua;
+    border-radius:5%;
+}
+#Classcon
+{
+    width: 100%;
+    height:300px;
+    text-align: center;
+    color:cornsilk;
+}
+#Classcon h3
+{
+    font-family: TimesNewRoman;
+    font-size: 40px;
+    text-align: center;
+}
+form
+{
+  font-family: TimesNewRoman;
+  font-size: 30px;  
+}
+input
+{
+  font-family: TimesNewRoman;
+  font-size: 20px;
+  background: transparent;
+}
+#Heading
+{
+    margin:0px 0px 0px 20px;
+}
+#date, #time
+{
+    margin:0px 0px 0px 40px;
+}
+#lin
+{
+    margin:0px 0px 0px 10px;
+}
+#Submit
+{
+  font-family: TimesNewRoman;
+  font-size: 40px;  
+}
+#Classlist,#Classlistcon
+{
+   width: 100%; 
+}
+#sub
+{
+    font-family: TimeNewRoman;
+    font-size: 40px;
+    background: transparent;
+    border:none;
+    color:#0000ff;
+}

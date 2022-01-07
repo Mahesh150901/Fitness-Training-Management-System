@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Fitness</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="CSS/Dashboardtr.css">
+    </head>
+    <body>
+        <script>
+            function Scroll()
+            {
+                window.scrollBy(0,300);
+            }
+        </script>
+        <table id="Head">
+            <tr>
+                <td id="Headcon">
+                    <img src="Images/logo.jpg" alt="Logoinfo">
+                    <nav><form action="Classlist" method="post"><input type="submit" value="Schedule" onclick="Scroll()"></form></nav>
+                    <nav><form action="customer" method="post"><input type="submit" value="Customers list" onclick="Scroll()"></form></nav>
+                    <nav><a href="Mail.html">Send Message</a></nav>
+                    <nav><a href="Logintr.html">Sign out</a></nav>
+                </td>
+            </tr>
+        </table>
+        <table id="Gap"></table>
+        <center>
+            <table id="Class">
+                <tr>
+                    <td id="Classcon">
+                        <h3>Schedule a class</h3>
+                        <form action="Dashboardtr" method="post">
+                            Name<input type="text" name="Heading" id="Heading"><br><br>
+                            Class Link<input type="text" name="Class" id="lin"><br><br>
+                            Date<input type="date" name="Date" id="date"><br><br>
+                            Time<input type="time" name="Time" id="time"><br><br>
+                            <input type="submit" name="Submit" id="Submit" value="Schedule">
+                        </form> 
+                    </td>
+                </tr>
+            </table>
+        </center>
+    </body>
+</html>

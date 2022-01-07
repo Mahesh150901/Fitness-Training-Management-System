@@ -1,0 +1,56 @@
+body
+{
+    background-image: url("../Images/Logincus.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+table
+{
+    padding-top: 100px;
+}
+h2,h1
+{
+    text-align: center;
+    font-family: TimesNewRoman;
+    font-size:38px;
+    color:coral;
+}
+form
+{
+    font-family: TimesNewRoman;
+    font-size:28px;
+    color:coral;
+}
+input
+{
+    font-family: TimesNewRoman;
+    font-size:20px;
+    background:transparent;
+    border: 1px solid aqua;
+    color:beige;
+}
+#user
+{
+    margin-left: 18px;
+}
+#pass
+{
+    margin-left: 22px;
+}
+#Sub
+{
+    margin-left: 150px;
+    color:#FF0000;
+    font-size:40px;
+}
+#For
+{
+    color:#FF0000;
+    font-family: TimesNewRoman;
+    font-size:40px;
+    border:none;
+    position:relative;
+    left:400px;
+    text-decoration: none;
+}
